@@ -6,7 +6,7 @@ git init
 # Comandos GitHub
 Referencia del repositorio local con el repositorio remoto  (GITHUB)
 ````
-git remote add origin https://github.com/AnaCarchi/font_angular_nest.git
+git remote add origin https://github.com/AnaCarchi/Front_angular_Anacarchi.git
 ````
 # validar que estamos trbajamdo en nuestrdo repositorio
 ```
