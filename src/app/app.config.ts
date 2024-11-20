@@ -8,8 +8,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 export const appConfig: ApplicationConfig = {
 
-  providers: [provideRouter(routes), provideHttpClient(withFetch())]
+  //providers: [provideRouter(routes), provideHttpClient(withFetch())]
 
   //providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes), provideClientHydration()]
+  providers: [provideRouter(routes),provideClientHydration(),importProvidersFrom(BrowserModule),importProvidersFrom(BrowserAnimationsModule)]
   //providers: [provideRouter(routes), provideHttpClient(withFetch()),importProvidersFrom(BrowserModule), importProvidersFrom(BrowserAnimationsModule)]
 };
